@@ -1,0 +1,79 @@
+#first{
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin-left: 400px;
+    margin-right: 23.25%;
+    margin-top: 100px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+#first img{
+    width: 30%;
+    height: auto;
+    margin-left: -5%;
+    margin-top: -150px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#first h1{
+    margin-right: 50%;
+    font-size:50px;
+}
+#fstText{
+    margin-left: 20px;
+    margin-right: 70px;
+    padding-top: 1%;
+}
+body{
+    background-image:url(https://i.pinimg.com/564x/68/00/4b/68004b2dd291376483171101e639f29a.jpg);
+}
+.container {
+    display: flex;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+  }
+  
+  .left-box {
+    width: 400px; /* Adjust width as needed */
+    height: auto; /* Adjust height as needed */
+    background-color: antiquewhite; /* Just for demonstration */
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+  }
+  
+  .right-boxes {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .right-boxes .top-box,
+  .right-boxes .bottom-box {
+    width: auto; /* Adjust width as needed */
+    height: auto; /* Adjust height as needed */
+    background-color: antiquewhite; /* Just for demonstration */
+    margin-left: 10px; /* Adjust margin as needed for spacing */
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 50px;
+  }
+  
+  .right-boxes .bottom-box {
+    margin-top: 20px; /* Adjust margin as needed for spacing */
+  }
+  .right-boxes .bottom-box p{
+    padding-left: 30px; /* Adjust margin as needed for spacing */
+  }
+  #s-line{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+  }
+  #s-line p{
+    font-size: 10px;
+  }
+  #s-line h4{
+    margin-left: 20px;
+  }
